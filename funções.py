@@ -22,3 +22,9 @@ def vazia():
     x = 10 + 20
     print("o valor calculado é: ", x)
 print(vazia())
+
+def leitura():
+    x = int(input("Digite um valor: "))
+    while x <= 0:          
+        x = int(input("Digite um valor: "))
+    return x
