@@ -1,7 +1,6 @@
 def vogal (v):
-    if v in "aeiou":            
+    if v in "aeiouAEIOU":            
         return True
     else:
         return False
     
-#print(vogal("c"))
